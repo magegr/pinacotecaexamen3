@@ -44,7 +44,7 @@ jobs:
 
           cd mysql 
 
-          docker build -t ${{ secrets.DOCKER_USERNAME }}sqlpinacoteca:v1 . 
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/sqlpinacoteca:v1 . 
 
           docker push ${{ secrets.DOCKER_USERNAME }}/sqlpinacoteca:v1 
 
