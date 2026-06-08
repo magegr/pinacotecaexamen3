@@ -10,7 +10,7 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
 # Copia la aplicación al contenedor 
 
-COPY index.php /var/www/html/pinacoteca
+COPY index.php /var/www/html/index.php
 
  
 
